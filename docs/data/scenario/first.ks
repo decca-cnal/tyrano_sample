@@ -1,46 +1,69 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="やっぱりタウンズさん"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「hey! pass me!!」[l][r]
 
-メロスは激怒した。[l][r]
+タウンズさんは激怒した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+「ぐわあーー！！」[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+ああ、何もかも、ばかばかしい。なんでゴベアがスリー打つねん。[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+...[l][r]
+
+あああ、、[l][r]
+
+ぴーっっ！！（笛）[l][r]
+
+ん？ぼく？[l][r]
+
+そう。タウンズさんはやってしまった。[l][r]
+
+「まずい（汗）、次で退場か、、」[l][r]
+
+そうしてる間によきっちさんは容赦ない。[l][r]
+
+さて、タウンズさんはどうする？[l][r]
+
+[link target=*tag_foul] →ファウルする [endlink][r]
+[link target=*tag_hand] →手上げてみる [endlink][r]
 [s]
 
-*tag_sleep
+*tag_foul
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=baby.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+タウンズさんは眉間に皺を寄せることしかできなかった。[l][r]
+タウンズさんは、ひどく赤面した。[l][r]
+
+「またやっちまったな、」[l][r]
+泣きながら、ナズさんと交代するのであった。。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_hand
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+[bg storage=taunnzusann.jpg time=500]
+
+ぴーっつ！！（笛）[l][r]
+フロップされてしまったタウンズさんは、、[l][r]
+「、、、、ん？ぼく？」[l][r]
+タウンズさんは、ひどく赤面した。[l][r]
+「またやっちまったな、」[l][r]
+泣きながら、ナズさんと交代するのであった。[r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
